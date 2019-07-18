@@ -1,0 +1,11 @@
+---
+# Specifies the relative name of the cslogwatch database
+# If it does not exist, it will be automatically created
+database: cslogwatch-db.sqlite3
+
+# Specifies the name of the project
+project_name: Example
+
+# Speifies the directory to be monitored by cslogwatch
+# This is typically the log directory of your tema server
+monitored_directory: logs/
