@@ -42,3 +42,5 @@ The first time cslogwatch runs it will create a new sqlite database if one of th
 - Write more robust UTC timezone detection 
 - Implement cslogwatch stdout output to log file
   - For the time being the output can manually be redirected 
+- Implement download.log, events.log, and web.log parsing and storage
+  - This is already being worked on and will be released shortly
