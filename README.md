@@ -20,12 +20,14 @@ cslogwatch is straightforward to get up and running. First you need to install c
 	pip -r install requirements.txt
 ```
 
-Next you need to edit the `config.yaml` file to specify the following:
+Next you need to create a config.yaml file specifying the following (`config-example.yaml` included for reference):
 - `database`: relative path to the cslogwatch database. If one does not exist at the specified path, it will be automatically created by cslogwatch.
 - `project_name`: This is the name of the project. Generally this would be tied to the red team exercis as all log entries will 'belong' (via foreign key) to this project
 - `monitored_directory` : This is the Cobalt Strike log file directory to be monitored by cslogwatch
 
-Execute cslogwatch:
+**Remember** to save your configuration as `config.yaml` before trying to run cslogwatch!
+
+Once you have saved your configuration file, you can execute cslogwatch:
 
 ```bash
 	python cslogwatch.py

@@ -422,7 +422,6 @@ def create_new_db(db_path):
         conn.close()
     except Error as exception:
         print(colored('[ERROR] - Unable to create new database database ('+db_path+')', 'red'))
-        exit()
     finally:
         conn.close()
 
